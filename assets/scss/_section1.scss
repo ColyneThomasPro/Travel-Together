@@ -1,0 +1,53 @@
+@mixin button {
+    text-transform: uppercase;
+    font-family: "LatoBold";
+    color: black;
+    box-shadow: 1px 1px 10px 1px rgb(58, 58, 58);
+    border-radius: 5px;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+.btns {
+    background-color: white;
+}
+
+.card1 {
+    background-color: #e7816b;
+    margin-top: 5%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px rgb(139, 139, 139);
+    border: none;
+    overflow: hidden;
+
+    .text-content {
+        margin: 5%;
+        color: white;
+        width: 70%;
+        h1 {
+            margin-bottom: 7%;
+        }
+        p {
+            font-size: 1rem;
+            margin-bottom: 7%;
+        }
+        a {
+           @include button;
+           font-size: 1rem;
+        }
+    }
+
+    .phone-img {
+        margin: 5% 5% -10% 0%;
+        width: 30%;
+        display: flex;
+
+        img {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+
+
