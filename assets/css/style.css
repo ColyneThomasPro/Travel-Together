@@ -62,4 +62,27 @@
   object-fit: contain;
 }
 
+.titleServices {
+  background-color: yellow;
+}
+
+.containerServices {
+  background-color: red;
+}
+.containerServices .bloc1 {
+  background-color: green;
+}
+.containerServices .bloc1 .cardService1 {
+  background-color: royalblue;
+}
+.containerServices .bloc2 {
+  background-color: green;
+}
+.containerServices .bloc2 .cardService2 {
+  background-color: blue;
+}
+.containerServices .bloc2 .cardService3 {
+  background-color: rgb(19, 19, 105);
+}
+
 /*# sourceMappingURL=style.css.map */
